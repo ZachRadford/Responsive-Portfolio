@@ -1,0 +1,265 @@
+
+
+
+.name {
+
+	background-color: #4aaaa5;
+	padding: 15px;
+	width: 100px;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+
+
+.links a {
+	color: #777777;
+	text-decoration: none;
+	border: 0;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 0px 15px;
+	margin: 15px 0px;
+	display: inline-block;
+}
+
+.links a:last-of-type {
+	border: 0;
+}
+
+.links a:visited {
+	color: #777777;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: #daff22;
+	text-decoration: dotted;
+}
+
+.grey-text {
+	color: #6d6d6d;
+}
+
+footer {
+	background-color: #666666;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	border-top: 10px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.sidebar {
+	width: 28%;
+	background-color: #ffffff;
+	margin-left: 4%;
+}
+
+.main {
+	background-color: #ffffff;
+	width: 68%;
+}
+
+
+.content {
+	float: left;
+	margin-bottom: 15px;
+}
+
+body {
+	background: url(../images/wallpaper1.jpg);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 25px;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 5px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	margin-bottom: 15px;
+}
+
+.padding15 {
+	padding: 10px;
+}
+
+.rightmarginsomethingelse {
+	margin-right: 115px;
+}
+
+.pushdown {
+	margin-top: 15px;
+}
+
+.content-inner {
+	padding: 15px;
+}
+
+.sidebarimg {
+	text-align: center;
+}
+
+.sidebarimg img{
+	margin-left: 20px;
+	height: auto;
+	width: auto;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+input {
+	width: 100%;
+}
+
+.message {
+	height: 100px;
+}
+
+
+
+.portfolioimg img {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.portfolioimg > div {
+	display:inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+.stupidbutton a {
+	display: table-cell;
+	height: 50px;
+	background-color: #4aaaa5;
+	width: 250px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	bottom: 248px;
+}
+
+.row {
+	width: 100%;
+}
+
+.container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h1, h2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+	.container {
+	width: 90%;
+	}
+
+	.sidebar {
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 100px;
+	}
+
+	.main {	
+	width: 100%;
+	}
+
+	.rightmarginsomethingelse {
+	margin-right: 4%;
+	}
+
+	.portfolioimg img {
+	height: auto;
+	width: 100%;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	.container {
+	width: 90%;
+	}
+
+	.sidebar {
+	width: 100%;
+	margin-left: 0;
+	}
+
+	.main {	
+	width: 100%;
+	}
+
+	.rightmarginsomethingelse {
+	margin-right: 4%;
+	}
+
+	.portfolioimg img {
+	height: auto;
+	width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+	.container {
+		max-width: 960px;
+	}
+}
